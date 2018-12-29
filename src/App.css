@@ -1,32 +1,77 @@
-.App {
-  text-align: center;
+.custom-brand {
+  padding-left: 100px;
+  color: black !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.books-title {
+  margin-left: 100px;
+  /* margin-bottom: 50px; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.move-right {
+  /* margin-left: 100px; */
+  float: none;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.book-cover {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 200px;
+}
+
+.book-card {
+  /* width: 150px; */
+  height: 300px;
+  margin-right: 20px;
+  /* border: 1px dotted red; */
+}
+
+.metadata-container {
+  /* background-color: pink; */
+  width: 100%;
+  margin-top: 10px;
+}
+
+.book-title {
+  font-weight: bold;
+  color: black;
+  margin: 0;
+}
+
+.show-button {
+  border: none;
+  color: black;
+  background-color: #c0c0c0;
+  width: 150px;
+  height: 50px;
+  /* float: none; */
+  position: absolute;
+  left: 500px;
+  /* text-align: center; */
+}
+
+.book-author {
+  color: #909090;
+  margin: 0;
+}
+
+.footer {
+  height: 150px;
+  background-color: #C0C0C0;
+  margin-top: 100px;
+}
+
+.footer-text {
+  margin-left: 100px;
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
 }
